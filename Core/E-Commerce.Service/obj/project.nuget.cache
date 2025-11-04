@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0wVrH1qWr38=",
+  "success": true,
+  "projectFilePath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce/Core/E-Commerce.Service/E-Commerce.Service.csproj",
+  "expectedPackageFiles": [
+    "/home/youssef-desoky/.nuget/packages/microsoft.netcore.app.ref/8.0.15/microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "/home/youssef-desoky/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
