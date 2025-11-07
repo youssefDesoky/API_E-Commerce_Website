@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+zgwOjBb8EQ=",
+  "dgSpecHash": "fA9RixMuJEA=",
   "success": true,
-  "projectFilePath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce/Core/E-Commerce.Domain/E-Commerce.Domain.csproj",
+  "projectFilePath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/Core/E-Commerce.Domain/E-Commerce.Domain.csproj",
   "expectedPackageFiles": [
     "/home/youssef-desoky/.nuget/packages/microsoft.netcore.app.ref/8.0.15/microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
     "/home/youssef-desoky/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512"

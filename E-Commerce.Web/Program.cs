@@ -1,4 +1,10 @@
+using E_Commerce.Domain.Contracts;
 using E_Commerce.Persistence.Context;
+using E_Commerce.Persistence.DbInitializer;
+using E_Commerce.Persistence.Repositories;
+using E_Commerce.Service.Abstraction;
+using E_Commerce.Service.MappingProfile;
+using E_Commerce.Service.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,7 +23,21 @@ builder.Services.AddDbContext<StoreDbContext>(options =>
 });
 #endregion
 
+#region Injections
+builder.Services.AddScoped<IDbInitializer, DbInitializer>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IProductService, ProductService>();
+
+builder.Services.AddAutoMapper(x => x.AddProfile(new ProductProfile()));
+#endregion
+
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbInitializer = scope.ServiceProvider.GetRequiredService<IDbInitializer>();
+    await dbInitializer.InitializeAsync();
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

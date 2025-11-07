@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce/Core/E-Commerce.Domain/E-Commerce.Domain.csproj",
+      "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/Core/E-Commerce.Domain/E-Commerce.Domain.csproj",
       "projectName": "E-Commerce.Domain",
-      "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce/Core/E-Commerce.Domain/E-Commerce.Domain.csproj",
+      "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/Core/E-Commerce.Domain/E-Commerce.Domain.csproj",
       "packagesPath": "/home/youssef-desoky/.nuget/packages/",
-      "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce/Core/E-Commerce.Domain/obj/",
+      "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/Core/E-Commerce.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/youssef-desoky/.nuget/NuGet/NuGet.Config"
