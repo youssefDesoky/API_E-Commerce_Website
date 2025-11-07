@@ -18,6 +18,12 @@
 
   <ItemGroup>
     <ProjectReference Include="../Infrastructure/E-Commerce.Persistence/E-Commerce.Persistence.csproj" />
+    <ProjectReference Include="../Infrastructure/E-Commerce.Presentation.API/E-Commerce.Presentation.API.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot/" />
+    <Folder Include="wwwroot/Images/" />
   </ItemGroup>
 
 </Project>
