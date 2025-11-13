@@ -4202,11 +4202,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/Infrastructure/E-Commerce.Presentation.API/E-Commerce.Presentation.API.csproj",
+      "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Infrastructure/E-Commerce.Presentation.API/E-Commerce.Presentation.API.csproj",
       "projectName": "E-Commerce.Presentation.API",
-      "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/Infrastructure/E-Commerce.Presentation.API/E-Commerce.Presentation.API.csproj",
+      "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Infrastructure/E-Commerce.Presentation.API/E-Commerce.Presentation.API.csproj",
       "packagesPath": "/home/youssef-desoky/.nuget/packages/",
-      "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/Infrastructure/E-Commerce.Presentation.API/obj/",
+      "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Infrastructure/E-Commerce.Presentation.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/youssef-desoky/.nuget/NuGet/NuGet.Config"
@@ -4221,8 +4221,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj": {
-              "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj"
+            "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj": {
+              "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj"
             }
           }
         }

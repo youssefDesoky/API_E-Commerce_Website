@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1juIkGg6Z4M=",
+  "dgSpecHash": "BGTB0EKf1Ew=",
   "success": true,
-  "projectFilePath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/E-Commerce.Web/E-Commerce.Web.csproj",
+  "projectFilePath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/E-Commerce.Web.csproj",
   "expectedPackageFiles": [
     "/home/youssef-desoky/.nuget/packages/automapper/15.1.0/automapper.15.1.0.nupkg.sha512",
     "/home/youssef-desoky/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
@@ -43,6 +43,7 @@
     "/home/youssef-desoky/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/youssef-desoky/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "/home/youssef-desoky/.nuget/packages/microsoft.extensions.caching.memory/8.0.1/microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
+    "/home/youssef-desoky/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "/home/youssef-desoky/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "/home/youssef-desoky/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.1/microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
     "/home/youssef-desoky/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",

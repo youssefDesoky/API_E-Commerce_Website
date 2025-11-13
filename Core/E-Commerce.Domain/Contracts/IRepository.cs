@@ -13,4 +13,8 @@ public interface IRepository<TEntity, TKey> where TEntity : Entity<TKey>
     // Make Read operations asynchronous
     Task<IEnumerable<TEntity>> GetAllAsync();
     Task<TEntity?> GetByIdAsync(TKey id);
+
+    // Specification-based methods
+    Task<IEnumerable<TEntity>> GetAllAsync(ISpecification<TEntity> specification);
+    Task<TEntity?> GetByIdAsync(ISpecification<TEntity> specification);
 }
