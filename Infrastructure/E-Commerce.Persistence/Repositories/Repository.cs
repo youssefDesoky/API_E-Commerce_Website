@@ -7,10 +7,17 @@ namespace E_Commerce.Persistence.Repositories;
 
 public class Repository<TEntity, TKey>(StoreDbContext context) : IRepository<TEntity, TKey> where TEntity : Entity<TKey>
 {
-    public void Add(TEntity entity) => context.Set<TEntity>().Add(entity);
-    public void Update(TEntity entity) => context.Set<TEntity>().Update(entity);
-    public void Delete(TKey id) => context.Set<TEntity>().Remove(context.Set<TEntity>().Find(id));
+    private readonly DbSet<TEntity> _dbSet = context.Set<TEntity>();
 
-    public async Task<IEnumerable<TEntity>> GetAllAsync() => await context.Set<TEntity>().ToListAsync();
-    public async Task<TEntity?> GetByIdAsync(TKey id) => await context.Set<TEntity>().FindAsync(id);
+    public void Add(TEntity entity) => _dbSet.Add(entity);
+    public void Update(TEntity entity) => _dbSet.Update(entity);
+    public void Delete(TKey id) => _dbSet.Remove(_dbSet.Find(id));
+    public async Task<IEnumerable<TEntity>> GetAllAsync() => await _dbSet.ToListAsync();
+    public async Task<TEntity?> GetByIdAsync(TKey id) => await _dbSet.FindAsync(id);
+
+    public async Task<IEnumerable<TEntity>> GetAllAsync(ISpecification<TEntity> specification)
+        => await _dbSet.ApplySpecification(specification).ToListAsync();
+
+    public async Task<TEntity?> GetByIdAsync(ISpecification<TEntity> specification)
+        => await _dbSet.ApplySpecification(specification).FirstOrDefaultAsync();
 }

@@ -1,56 +1,56 @@
 {
   "Files": [
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/E-Commerce.Web/wwwroot/Images/CasualSneakers.jpg",
-      "PackagePath": "staticwebassets/Images/CasualSneakers.jpg"
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/CasualSneakers.jpg",
+      "PackagePath": "staticwebassets/images/products/CasualSneakers.jpg"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/E-Commerce.Web/wwwroot/Images/ClassicBlackDressPants.jpg",
-      "PackagePath": "staticwebassets/Images/ClassicBlackDressPants.jpg"
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/ClassicBlackDressPants.jpg",
+      "PackagePath": "staticwebassets/images/products/ClassicBlackDressPants.jpg"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/E-Commerce.Web/wwwroot/Images/ClassicWhiteTShirt.jpeg",
-      "PackagePath": "staticwebassets/Images/ClassicWhiteTShirt.jpeg"
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/ClassicWhiteTShirt.jpeg",
+      "PackagePath": "staticwebassets/images/products/ClassicWhiteTShirt.jpeg"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/E-Commerce.Web/wwwroot/Images/CottonHoodie.jpg",
-      "PackagePath": "staticwebassets/Images/CottonHoodie.jpg"
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/CottonHoodie.jpg",
+      "PackagePath": "staticwebassets/images/products/CottonHoodie.jpg"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/E-Commerce.Web/wwwroot/Images/DenimJacket.jpg",
-      "PackagePath": "staticwebassets/Images/DenimJacket.jpg"
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/DenimJacket.jpg",
+      "PackagePath": "staticwebassets/images/products/DenimJacket.jpg"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/E-Commerce.Web/wwwroot/Images/FormalBlazer.jpg",
-      "PackagePath": "staticwebassets/Images/FormalBlazer.jpg"
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/FormalBlazer.jpg",
+      "PackagePath": "staticwebassets/images/products/FormalBlazer.jpg"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/E-Commerce.Web/wwwroot/Images/KnittedSweater.jpg",
-      "PackagePath": "staticwebassets/Images/KnittedSweater.jpg"
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/KnittedSweater.jpg",
+      "PackagePath": "staticwebassets/images/products/KnittedSweater.jpg"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/E-Commerce.Web/wwwroot/Images/MensLeatherJacket.jpg",
-      "PackagePath": "staticwebassets/Images/MensLeatherJacket.jpg"
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/MensLeatherJacket.jpg",
+      "PackagePath": "staticwebassets/images/products/MensLeatherJacket.jpg"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/E-Commerce.Web/wwwroot/Images/MensPoloShirt.jpg",
-      "PackagePath": "staticwebassets/Images/MensPoloShirt.jpg"
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/MensPoloShirt.jpg",
+      "PackagePath": "staticwebassets/images/products/MensPoloShirt.jpg"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/E-Commerce.Web/wwwroot/Images/SlimFitJeans.jpg",
-      "PackagePath": "staticwebassets/Images/SlimFitJeans.jpg"
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/SlimFitJeans.jpg",
+      "PackagePath": "staticwebassets/images/products/SlimFitJeans.jpg"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/E-Commerce.Web/wwwroot/Images/SummerFloralDress.jpg",
-      "PackagePath": "staticwebassets/Images/SummerFloralDress.jpg"
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/SummerFloralDress.jpg",
+      "PackagePath": "staticwebassets/images/products/SummerFloralDress.jpg"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/E-Commerce.Web/wwwroot/Images/WomensTrenchCoat.jpeg",
-      "PackagePath": "staticwebassets/Images/WomensTrenchCoat.jpeg"
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/WomensTrenchCoat.jpeg",
+      "PackagePath": "staticwebassets/images/products/WomensTrenchCoat.jpeg"
     },
     {
-      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/E-Commerce.Web/wwwroot/Images/WoolScarf.jpg",
-      "PackagePath": "staticwebassets/Images/WoolScarf.jpg"
+      "Id": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/WoolScarf.jpg",
+      "PackagePath": "staticwebassets/images/products/WoolScarf.jpg"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.E-Commerce.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

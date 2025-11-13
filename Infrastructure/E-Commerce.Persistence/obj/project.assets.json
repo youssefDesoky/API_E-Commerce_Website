@@ -256,6 +256,26 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Configuration/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -964,7 +984,8 @@
         "dependencies": {
           "AutoMapper": "15.1.0",
           "E-Commerce.Domain": "1.0.0",
-          "E-Commerce.Service.Abstraction": "1.0.0"
+          "E-Commerce.Service.Abstraction": "1.0.0",
+          "Microsoft.Extensions.Configuration": "8.0.0"
         },
         "compile": {
           "bin/placeholder/E-Commerce.Service.dll": {}
@@ -1292,6 +1313,36 @@
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.xml",
         "microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
         "microsoft.extensions.caching.memory.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration/8.0.0": {
+      "sha512": "0J/9YNXTMWSZP2p2+nvl8p71zpSwokZXZuJW+VjdErkegAnFdO1XlqtA62SJtgVYHdKu3uPxJHcMR/r35HwFBA==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.xml",
+        "lib/net6.0/Microsoft.Extensions.Configuration.dll",
+        "lib/net6.0/Microsoft.Extensions.Configuration.xml",
+        "lib/net7.0/Microsoft.Extensions.Configuration.dll",
+        "lib/net7.0/Microsoft.Extensions.Configuration.xml",
+        "lib/net8.0/Microsoft.Extensions.Configuration.dll",
+        "lib/net8.0/Microsoft.Extensions.Configuration.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
+        "microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -2516,11 +2567,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/E-Commerce.Persistence.csproj",
+      "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/E-Commerce.Persistence.csproj",
       "projectName": "E-Commerce.Persistence",
-      "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/E-Commerce.Persistence.csproj",
+      "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/E-Commerce.Persistence.csproj",
       "packagesPath": "/home/youssef-desoky/.nuget/packages/",
-      "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/obj/",
+      "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/youssef-desoky/.nuget/NuGet/NuGet.Config"
@@ -2535,8 +2586,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj": {
-              "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_02/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj"
+            "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj": {
+              "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj"
             }
           }
         }
