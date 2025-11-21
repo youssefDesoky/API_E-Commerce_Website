@@ -17,4 +17,6 @@ public interface IRepository<TEntity, TKey> where TEntity : Entity<TKey>
     // Specification-based methods
     Task<IEnumerable<TEntity>> GetAllAsync(ISpecification<TEntity> specification);
     Task<TEntity?> GetByIdAsync(ISpecification<TEntity> specification);
+
+    Task<int> CountAsync(ISpecification<TEntity> specification);
 }
