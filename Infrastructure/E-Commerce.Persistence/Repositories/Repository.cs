@@ -20,4 +20,7 @@ public class Repository<TEntity, TKey>(StoreDbContext context) : IRepository<TEn
 
     public async Task<TEntity?> GetByIdAsync(ISpecification<TEntity> specification)
         => await _dbSet.ApplySpecification(specification).FirstOrDefaultAsync();
+
+    public async Task<int> CountAsync(ISpecification<TEntity> specification)
+        => await _dbSet.ApplySpecification(specification).CountAsync();
 }

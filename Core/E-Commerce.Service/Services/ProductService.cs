@@ -4,6 +4,7 @@ using E_Commerce.Domain.Contracts;
 using E_Commerce.Domain.Entities.Products;
 using E_Commerce.Service.Abstraction;
 using E_Commerce.Service.Specifications;
+using E_Commerce.Shared;
 using E_Commerce.Shared.DTOs.Products;
 
 namespace E_Commerce.Service.Services;
@@ -19,13 +20,19 @@ public class ProductService(IUnitOfWork unitOfWork, IMapper mapper) : IProductSe
         return mapper.Map<ProductDto>(product);
     }
 
-    public async Task<IEnumerable<ProductDto>> GetProductsAsync(ProductQueryParameters parameters)
+    public async Task<PaginatedResult<ProductDto>> GetProductsAsync(ProductQueryParameters parameters)
     {
         var specs = new ProductWithBrandTypeSpecification(parameters);
 
         var products = await unitOfWork.GetRepository<Product, int>().GetAllAsync(specs);
+
+        var countSpecs = new ProductCountSpecification(parameters);
+
+        var totalCount = await unitOfWork.GetRepository<Product, int>().CountAsync(countSpecs);
+
+        var result = mapper.Map<IEnumerable<ProductDto>>(products);
         
-        return mapper.Map<IEnumerable<ProductDto>>(products);
+        return new PaginatedResult<ProductDto>(parameters.PageIndex, result.Count(), totalCount, result);
     }
 
     public async Task<IEnumerable<BrandDto>> GetBrandsAsync()

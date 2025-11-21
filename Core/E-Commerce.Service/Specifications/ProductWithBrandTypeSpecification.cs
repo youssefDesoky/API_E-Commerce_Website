@@ -12,6 +12,27 @@ public class ProductWithBrandTypeSpecification : BaseSpecification<Product>
     {
         AddInclude(p => p.ProductBrand);
         AddInclude(p => p.ProductType);
+        
+        ApplyPaging(parameters.PageSize, parameters.PageIndex);
+
+        switch (parameters.SortOption)
+        {
+            case ProductSortOption.NameAsc:
+                AddOrderBy(p => p.Name);
+                break;
+            case ProductSortOption.NameDesc:
+                AddOrderByDesc(p => p.Name);
+                break;
+            case ProductSortOption.PriceAsc:
+                AddOrderBy(p => p.Price);
+                break;
+            case ProductSortOption.PriceDesc:
+                AddOrderByDesc(p => p.Price);
+                break;
+            default:
+                AddOrderBy(p => p.Name);
+                break;
+        }
     }
 
     public ProductWithBrandTypeSpecification(int id)
@@ -25,6 +46,7 @@ public class ProductWithBrandTypeSpecification : BaseSpecification<Product>
     {
         return p =>
             (!parameters.BrandId.HasValue || p.BrandId == parameters.BrandId.Value) &&
-            (!parameters.TypeId.HasValue || p.TypeId == parameters.TypeId.Value);
+            (!parameters.TypeId.HasValue || p.TypeId == parameters.TypeId.Value)
+            && (string.IsNullOrEmpty(parameters.SearchTerm) || p.Name.Contains(parameters.SearchTerm));
     }
 }
