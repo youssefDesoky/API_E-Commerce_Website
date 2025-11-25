@@ -2567,11 +2567,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/E-Commerce.Persistence.csproj",
+      "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/E-Commerce.Persistence.csproj",
       "projectName": "E-Commerce.Persistence",
-      "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/E-Commerce.Persistence.csproj",
+      "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/E-Commerce.Persistence.csproj",
       "packagesPath": "/home/youssef-desoky/.nuget/packages/",
-      "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/obj/",
+      "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/youssef-desoky/.nuget/NuGet/NuGet.Config"
@@ -2586,8 +2586,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj": {
-              "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj"
+            "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj": {
+              "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj"
             }
           }
         }

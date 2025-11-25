@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5e35rlNgHE8=",
+  "dgSpecHash": "dHx9KimEmAg=",
   "success": true,
-  "projectFilePath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/E-Commerce.Persistence.csproj",
+  "projectFilePath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/E-Commerce.Persistence.csproj",
   "expectedPackageFiles": [
     "/home/youssef-desoky/.nuget/packages/automapper/15.1.0/automapper.15.1.0.nupkg.sha512",
     "/home/youssef-desoky/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",

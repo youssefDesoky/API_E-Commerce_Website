@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj": {}
+    "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj": {}
   },
   "projects": {
-    "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Domain/E-Commerce.Domain.csproj": {
+    "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Domain/E-Commerce.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Domain/E-Commerce.Domain.csproj",
+        "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Domain/E-Commerce.Domain.csproj",
         "projectName": "E-Commerce.Domain",
-        "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Domain/E-Commerce.Domain.csproj",
+        "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Domain/E-Commerce.Domain.csproj",
         "packagesPath": "/home/youssef-desoky/.nuget/packages/",
-        "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Domain/obj/",
+        "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/youssef-desoky/.nuget/NuGet/NuGet.Config"
@@ -73,14 +73,14 @@
         }
       }
     },
-    "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj": {
+    "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj",
+        "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj",
         "projectName": "E-Commerce.Service.Abstraction",
-        "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj",
+        "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj",
         "packagesPath": "/home/youssef-desoky/.nuget/packages/",
-        "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/obj/",
+        "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/youssef-desoky/.nuget/NuGet/NuGet.Config"
@@ -95,8 +95,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Shared/E-Commerce.Shared.csproj": {
-                "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Shared/E-Commerce.Shared.csproj"
+              "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Shared/E-Commerce.Shared.csproj": {
+                "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Shared/E-Commerce.Shared.csproj"
               }
             }
           }
@@ -146,14 +146,14 @@
         }
       }
     },
-    "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj": {
+    "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj",
+        "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj",
         "projectName": "E-Commerce.Service",
-        "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj",
+        "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj",
         "packagesPath": "/home/youssef-desoky/.nuget/packages/",
-        "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Service/obj/",
+        "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/youssef-desoky/.nuget/NuGet/NuGet.Config"
@@ -168,11 +168,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Domain/E-Commerce.Domain.csproj": {
-                "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Domain/E-Commerce.Domain.csproj"
+              "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Domain/E-Commerce.Domain.csproj": {
+                "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Domain/E-Commerce.Domain.csproj"
               },
-              "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj": {
-                "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj"
+              "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj": {
+                "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj"
               }
             }
           }
@@ -232,14 +232,14 @@
         }
       }
     },
-    "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Shared/E-Commerce.Shared.csproj": {
+    "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Shared/E-Commerce.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Shared/E-Commerce.Shared.csproj",
+        "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Shared/E-Commerce.Shared.csproj",
         "projectName": "E-Commerce.Shared",
-        "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Shared/E-Commerce.Shared.csproj",
+        "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Shared/E-Commerce.Shared.csproj",
         "packagesPath": "/home/youssef-desoky/.nuget/packages/",
-        "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Shared/obj/",
+        "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/youssef-desoky/.nuget/NuGet/NuGet.Config"
