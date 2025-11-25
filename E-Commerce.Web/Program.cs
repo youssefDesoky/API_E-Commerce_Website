@@ -9,6 +9,7 @@ using E_Commerce.Shared.ErrorModels;
 using E_Commerce.Web.Middlewares;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,12 +22,18 @@ builder.Services.AddDbContext<StoreDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection"));
 });
+
+builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
+    ConnectionMultiplexer.Connect(builder.Configuration.GetConnectionString("RedisConnection")!)
+);
 #endregion
 
 #region Injections
 builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IBasketService, BasketService>();
+builder.Services.AddScoped<IBasketRepository, BasketRepository>();
 
 builder.Services.AddAutoMapper(x => x.AddProfile(new ProductProfile(builder.Configuration)));
 builder.Services.AddAutoMapper(x => x.AddProfile(new BasketProfile()));

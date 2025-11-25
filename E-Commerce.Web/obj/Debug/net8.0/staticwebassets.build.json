@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Nn1gW5Lzr/EdkmLK44AUMLSUdjtfn4W7UHOXNh1WG70=",
+  "Hash": "jz09mJT3BIwupqFpmS+RJ7vR1kGaGyJ48q/T17Gze1U=",
   "Source": "E-Commerce.Web",
   "BasePath": "_content/E-Commerce.Web",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "E-Commerce.Web/wwwroot",
       "Source": "E-Commerce.Web",
-      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
+      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
       "BasePath": "_content/E-Commerce.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/CasualSneakers.jpg",
+      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/CasualSneakers.jpg",
       "SourceId": "E-Commerce.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
+      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
       "BasePath": "_content/E-Commerce.Web",
       "RelativePath": "images/products/CasualSneakers#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot/images/products/CasualSneakers.jpg"
     },
     {
-      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/ClassicBlackDressPants.jpg",
+      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/ClassicBlackDressPants.jpg",
       "SourceId": "E-Commerce.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
+      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
       "BasePath": "_content/E-Commerce.Web",
       "RelativePath": "images/products/ClassicBlackDressPants#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot/images/products/ClassicBlackDressPants.jpg"
     },
     {
-      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/ClassicWhiteTShirt.jpeg",
+      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/ClassicWhiteTShirt.jpeg",
       "SourceId": "E-Commerce.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
+      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
       "BasePath": "_content/E-Commerce.Web",
       "RelativePath": "images/products/ClassicWhiteTShirt#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot/images/products/ClassicWhiteTShirt.jpeg"
     },
     {
-      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/CottonHoodie.jpg",
+      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/CottonHoodie.jpg",
       "SourceId": "E-Commerce.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
+      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
       "BasePath": "_content/E-Commerce.Web",
       "RelativePath": "images/products/CottonHoodie#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot/images/products/CottonHoodie.jpg"
     },
     {
-      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/DenimJacket.jpg",
+      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/DenimJacket.jpg",
       "SourceId": "E-Commerce.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
+      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
       "BasePath": "_content/E-Commerce.Web",
       "RelativePath": "images/products/DenimJacket#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot/images/products/DenimJacket.jpg"
     },
     {
-      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/FormalBlazer.jpg",
+      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/FormalBlazer.jpg",
       "SourceId": "E-Commerce.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
+      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
       "BasePath": "_content/E-Commerce.Web",
       "RelativePath": "images/products/FormalBlazer#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot/images/products/FormalBlazer.jpg"
     },
     {
-      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/KnittedSweater.jpg",
+      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/KnittedSweater.jpg",
       "SourceId": "E-Commerce.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
+      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
       "BasePath": "_content/E-Commerce.Web",
       "RelativePath": "images/products/KnittedSweater#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot/images/products/KnittedSweater.jpg"
     },
     {
-      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/MensLeatherJacket.jpg",
+      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/MensLeatherJacket.jpg",
       "SourceId": "E-Commerce.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
+      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
       "BasePath": "_content/E-Commerce.Web",
       "RelativePath": "images/products/MensLeatherJacket#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot/images/products/MensLeatherJacket.jpg"
     },
     {
-      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/MensPoloShirt.jpg",
+      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/MensPoloShirt.jpg",
       "SourceId": "E-Commerce.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
+      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
       "BasePath": "_content/E-Commerce.Web",
       "RelativePath": "images/products/MensPoloShirt#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot/images/products/MensPoloShirt.jpg"
     },
     {
-      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/SlimFitJeans.jpg",
+      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/SlimFitJeans.jpg",
       "SourceId": "E-Commerce.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
+      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
       "BasePath": "_content/E-Commerce.Web",
       "RelativePath": "images/products/SlimFitJeans#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot/images/products/SlimFitJeans.jpg"
     },
     {
-      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/SummerFloralDress.jpg",
+      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/SummerFloralDress.jpg",
       "SourceId": "E-Commerce.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
+      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
       "BasePath": "_content/E-Commerce.Web",
       "RelativePath": "images/products/SummerFloralDress#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot/images/products/SummerFloralDress.jpg"
     },
     {
-      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/WomensTrenchCoat.jpeg",
+      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/WomensTrenchCoat.jpeg",
       "SourceId": "E-Commerce.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
+      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
       "BasePath": "_content/E-Commerce.Web",
       "RelativePath": "images/products/WomensTrenchCoat#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot/images/products/WomensTrenchCoat.jpeg"
     },
     {
-      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/WoolScarf.jpg",
+      "Identity": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/WoolScarf.jpg",
       "SourceId": "E-Commerce.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
+      "ContentRoot": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/",
       "BasePath": "_content/E-Commerce.Web",
       "RelativePath": "images/products/WoolScarf#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -293,7 +293,7 @@
   "Endpoints": [
     {
       "Route": "images/products/CasualSneakers.gc82zcq9m9.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/CasualSneakers.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/CasualSneakers.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -314,7 +314,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -338,7 +338,7 @@
     },
     {
       "Route": "images/products/CasualSneakers.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/CasualSneakers.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/CasualSneakers.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -359,7 +359,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -375,7 +375,7 @@
     },
     {
       "Route": "images/products/ClassicBlackDressPants.3peb9whv1s.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/ClassicBlackDressPants.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/ClassicBlackDressPants.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -396,7 +396,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -420,7 +420,7 @@
     },
     {
       "Route": "images/products/ClassicBlackDressPants.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/ClassicBlackDressPants.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/ClassicBlackDressPants.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -441,7 +441,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -457,7 +457,7 @@
     },
     {
       "Route": "images/products/ClassicWhiteTShirt.jpeg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/ClassicWhiteTShirt.jpeg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/ClassicWhiteTShirt.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -478,7 +478,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -494,7 +494,7 @@
     },
     {
       "Route": "images/products/ClassicWhiteTShirt.xbuwd7z7sg.jpeg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/ClassicWhiteTShirt.jpeg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/ClassicWhiteTShirt.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -515,7 +515,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -539,7 +539,7 @@
     },
     {
       "Route": "images/products/CottonHoodie.9la22h6mr0.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/CottonHoodie.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/CottonHoodie.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -560,7 +560,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -584,7 +584,7 @@
     },
     {
       "Route": "images/products/CottonHoodie.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/CottonHoodie.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/CottonHoodie.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -605,7 +605,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -621,7 +621,7 @@
     },
     {
       "Route": "images/products/DenimJacket.3bhxf4kb3e.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/DenimJacket.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/DenimJacket.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -642,7 +642,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -666,7 +666,7 @@
     },
     {
       "Route": "images/products/DenimJacket.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/DenimJacket.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/DenimJacket.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -687,7 +687,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -703,7 +703,7 @@
     },
     {
       "Route": "images/products/FormalBlazer.ho4cip5joe.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/FormalBlazer.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/FormalBlazer.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -724,7 +724,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -748,7 +748,7 @@
     },
     {
       "Route": "images/products/FormalBlazer.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/FormalBlazer.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/FormalBlazer.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -769,7 +769,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -785,7 +785,7 @@
     },
     {
       "Route": "images/products/KnittedSweater.assq2qbj4l.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/KnittedSweater.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/KnittedSweater.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -806,7 +806,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -830,7 +830,7 @@
     },
     {
       "Route": "images/products/KnittedSweater.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/KnittedSweater.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/KnittedSweater.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -851,7 +851,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -867,7 +867,7 @@
     },
     {
       "Route": "images/products/MensLeatherJacket.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/MensLeatherJacket.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/MensLeatherJacket.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -888,7 +888,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -904,7 +904,7 @@
     },
     {
       "Route": "images/products/MensLeatherJacket.mw4h67pr47.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/MensLeatherJacket.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/MensLeatherJacket.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -925,7 +925,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -949,7 +949,7 @@
     },
     {
       "Route": "images/products/MensPoloShirt.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/MensPoloShirt.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/MensPoloShirt.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -970,7 +970,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -986,7 +986,7 @@
     },
     {
       "Route": "images/products/MensPoloShirt.lot1d7c1wi.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/MensPoloShirt.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/MensPoloShirt.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1007,7 +1007,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1031,7 +1031,7 @@
     },
     {
       "Route": "images/products/SlimFitJeans.g76t3gqrrh.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/SlimFitJeans.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/SlimFitJeans.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1052,7 +1052,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1076,7 +1076,7 @@
     },
     {
       "Route": "images/products/SlimFitJeans.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/SlimFitJeans.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/SlimFitJeans.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1097,7 +1097,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1113,7 +1113,7 @@
     },
     {
       "Route": "images/products/SummerFloralDress.fnjfjvp48x.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/SummerFloralDress.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/SummerFloralDress.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1134,7 +1134,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1158,7 +1158,7 @@
     },
     {
       "Route": "images/products/SummerFloralDress.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/SummerFloralDress.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/SummerFloralDress.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1179,7 +1179,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1195,7 +1195,7 @@
     },
     {
       "Route": "images/products/WomensTrenchCoat.jpeg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/WomensTrenchCoat.jpeg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/WomensTrenchCoat.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1216,7 +1216,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1232,7 +1232,7 @@
     },
     {
       "Route": "images/products/WomensTrenchCoat.r0kn3ouule.jpeg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/WomensTrenchCoat.jpeg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/WomensTrenchCoat.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1253,7 +1253,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1277,7 +1277,7 @@
     },
     {
       "Route": "images/products/WoolScarf.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/WoolScarf.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/WoolScarf.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1298,7 +1298,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1314,7 +1314,7 @@
     },
     {
       "Route": "images/products/WoolScarf.wzrm01u6sr.jpg",
-      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_03/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/WoolScarf.jpg",
+      "AssetFile": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/wwwroot/images/products/WoolScarf.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1335,7 +1335,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Nov 2025 11:36:36 GMT"
+          "Value": "Tue, 25 Nov 2025 15:00:07 GMT"
         },
         {
           "Name": "Cache-Control",
