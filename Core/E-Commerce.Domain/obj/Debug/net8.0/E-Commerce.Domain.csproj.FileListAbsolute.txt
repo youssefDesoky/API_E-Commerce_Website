@@ -46,3 +46,4 @@
 /media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Domain/obj/Debug/net8.0/refint/E-Commerce.Domain.dll
 /media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Domain/obj/Debug/net8.0/E-Commerce.Domain.pdb
 /media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Domain/obj/Debug/net8.0/ref/E-Commerce.Domain.dll
+/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Domain/obj/Debug/net8.0/E-Commerce.Domain.csproj.AssemblyReference.cache

@@ -1,5 +1,6 @@
 using E_Commerce.Domain.Exceptions.BadRequest;
 using E_Commerce.Domain.Exceptions.NotFound;
+using E_Commerce.Domain.Exceptions.Unauthorized;
 using E_Commerce.Shared.ErrorModels;
 using Microsoft.AspNetCore.Http.HttpResults;
 
@@ -33,6 +34,7 @@ public class GlobalMiddleware(RequestDelegate next)
             {
                 NotFoundException => StatusCodes.Status404NotFound,
                 BadRequestException => StatusCodes.Status400BadRequest,
+                UnauthorizedException => StatusCodes.Status401Unauthorized,
                 _ => StatusCodes.Status500InternalServerError
             };
 

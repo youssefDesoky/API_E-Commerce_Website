@@ -1,8 +1,10 @@
 using System;
 using System.Text.Json;
 using E_Commerce.Domain.Contracts;
+using E_Commerce.Domain.Entities.Identity;
 using E_Commerce.Domain.Entities.Products;
 using E_Commerce.Persistence.Context;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace E_Commerce.Persistence.DbInitializer;
@@ -17,11 +19,16 @@ namespace E_Commerce.Persistence.DbInitializer;
 //     }
 // }
 
-public class DbInitializer(StoreDbContext context) : IDbInitializer
+public class DbInitializer(
+    StoreDbContext context,
+    IdentityStoreDbContext identityContext,
+    UserManager<AppUser> userManager,
+    RoleManager<IdentityRole> roleManager) : IDbInitializer
 {
     public async Task InitializeAsync()
     {
-        context.Database.Migrate(); // Apply any pending migrations
+        if (context.Database.GetPendingMigrations().Any())
+            await context.Database.MigrateAsync(); // Apply any pending migrations
 
         if (!context.ProductBrands.Any())
         {
@@ -75,6 +82,55 @@ public class DbInitializer(StoreDbContext context) : IDbInitializer
                 context.Products.AddRange(products);
                 await context.SaveChangesAsync();
             }
+        }
+    }
+
+    public async Task InitializeIdentityAsync()
+    {
+        // Create || Update Identity Database Schema
+        if (identityContext.Database.GetPendingMigrations().Any())
+            await identityContext.Database.MigrateAsync(); // Apply any pending migrations
+
+        // Seed Identity Data
+        if (!identityContext.Roles.Any())
+        {
+            var roles = new List<IdentityRole>
+            {
+                new IdentityRole { Name = "SuperAdmin" },
+                new IdentityRole { Name = "Admin" }
+            };
+
+            foreach (var role in roles)
+            {
+                await roleManager.CreateAsync(role);
+            }
+        }
+
+        if (!identityContext.Users.Any())
+        {
+            var superAdmin = new AppUser
+            {
+                UserName = "superAdmin",
+                DisplayName = "Super Admin",
+                Email = "superadmin@example.com",
+                PhoneNumber = "1234567890",
+
+            };
+
+            var adminUser = new AppUser
+            {
+                UserName = "admin",
+                DisplayName = "Admin User",
+                Email = "admin@example.com",
+                PhoneNumber = "0987654321",
+
+            };
+
+            await userManager.CreateAsync(superAdmin, "P@ssw0rd");
+            await userManager.CreateAsync(adminUser, "P@ssw0rd");
+
+            await userManager.AddToRoleAsync(superAdmin, "SuperAdmin");
+            await userManager.AddToRoleAsync(adminUser, "Admin");
         }
     }
 }

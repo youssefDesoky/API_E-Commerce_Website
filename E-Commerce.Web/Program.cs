@@ -1,4 +1,5 @@
 using E_Commerce.Domain.Contracts;
+using E_Commerce.Domain.Entities.Identity;
 using E_Commerce.Persistence.Context;
 using E_Commerce.Persistence.DbInitializer;
 using E_Commerce.Persistence.Repositories;
@@ -7,6 +8,7 @@ using E_Commerce.Service.MappingProfile;
 using E_Commerce.Service.Services;
 using E_Commerce.Shared.ErrorModels;
 using E_Commerce.Web.Middlewares;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StackExchange.Redis;
@@ -23,6 +25,11 @@ builder.Services.AddDbContext<StoreDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection"));
 });
 
+builder.Services.AddDbContext<IdentityStoreDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"));
+});
+
 builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
     ConnectionMultiplexer.Connect(builder.Configuration.GetConnectionString("RedisConnection")!)
 );
@@ -34,6 +41,9 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IBasketService, BasketService>();
 builder.Services.AddScoped<IBasketRepository, BasketRepository>();
+builder.Services.AddScoped<ICacheRepository, CacheRepository>();
+builder.Services.AddScoped<ICacheService, CacheService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 builder.Services.AddAutoMapper(x => x.AddProfile(new ProductProfile(builder.Configuration)));
 builder.Services.AddAutoMapper(x => x.AddProfile(new BasketProfile()));
@@ -63,6 +73,12 @@ builder.Services.Configure<ApiBehaviorOptions>(config =>
     };
 });
 #endregion
+
+
+builder.Services.AddIdentityCore<AppUser>(options =>
+{
+    options.User.RequireUniqueEmail = true;
+}).AddRoles<IdentityRole>().AddEntityFrameworkStores<IdentityStoreDbContext>();
 
 var app = builder.Build();
 

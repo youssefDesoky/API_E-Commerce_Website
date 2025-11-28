@@ -4,6 +4,81 @@
     "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Presentation.API/E-Commerce.Presentation.API.csproj": {}
   },
   "projects": {
+    "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Domain/E-Commerce.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Domain/E-Commerce.Domain.csproj",
+        "projectName": "E-Commerce.Domain",
+        "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Domain/E-Commerce.Domain.csproj",
+        "packagesPath": "/home/youssef-desoky/.nuget/packages/",
+        "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/youssef-desoky/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -47,6 +122,92 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj",
+        "projectName": "E-Commerce.Service",
+        "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj",
+        "packagesPath": "/home/youssef-desoky/.nuget/packages/",
+        "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/youssef-desoky/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Domain/E-Commerce.Domain.csproj": {
+                "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Domain/E-Commerce.Domain.csproj"
+              },
+              "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj": {
+                "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[15.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -146,6 +307,93 @@
         }
       }
     },
+    "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/E-Commerce.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/E-Commerce.Persistence.csproj",
+        "projectName": "E-Commerce.Persistence",
+        "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/E-Commerce.Persistence.csproj",
+        "packagesPath": "/home/youssef-desoky/.nuget/packages/",
+        "outputPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/youssef-desoky/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj": {
+                "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service/E-Commerce.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.10.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Presentation.API/E-Commerce.Presentation.API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -170,6 +418,9 @@
             "projectReferences": {
               "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj": {
                 "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj"
+              },
+              "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/E-Commerce.Persistence.csproj": {
+                "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/E-Commerce.Persistence.csproj"
               }
             }
           }
