@@ -52,3 +52,9 @@
 /media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Presentation.API/obj/Debug/net8.0/refint/E-Commerce.Presentation.API.dll
 /media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Presentation.API/obj/Debug/net8.0/E-Commerce.Presentation.API.pdb
 /media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Presentation.API/obj/Debug/net8.0/ref/E-Commerce.Presentation.API.dll
+/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Presentation.API/bin/Debug/net8.0/E-Commerce.Domain.dll
+/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Presentation.API/bin/Debug/net8.0/E-Commerce.Persistence.dll
+/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Presentation.API/bin/Debug/net8.0/E-Commerce.Service.dll
+/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Presentation.API/bin/Debug/net8.0/E-Commerce.Persistence.pdb
+/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Presentation.API/bin/Debug/net8.0/E-Commerce.Domain.pdb
+/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Presentation.API/bin/Debug/net8.0/E-Commerce.Service.pdb

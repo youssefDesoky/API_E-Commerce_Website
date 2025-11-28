@@ -43,6 +43,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -444,6 +450,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.21, )"
@@ -507,6 +517,9 @@
             "projectReferences": {
               "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj": {
                 "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Core/E-Commerce.Service.Abstraction/E-Commerce.Service.Abstraction.csproj"
+              },
+              "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/E-Commerce.Persistence.csproj": {
+                "projectPath": "/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/Infrastructure/E-Commerce.Persistence/E-Commerce.Persistence.csproj"
               }
             }
           }

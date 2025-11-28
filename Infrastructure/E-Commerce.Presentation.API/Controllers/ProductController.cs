@@ -1,3 +1,4 @@
+using E_Commerce.Presentation.API.Controllers.Attributes;
 using E_Commerce.Service.Abstraction;
 using E_Commerce.Shared;
 using E_Commerce.Shared.DTOs.Products;
@@ -49,6 +50,7 @@ namespace E_Commerce.Presentation.API.Controllers
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(PaginatedResult<ProductDto>))]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(ValidationErrorDetails))]
         [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(ErrorDetails))]
+        [Cache(60)]
         public async Task<ActionResult<IEnumerable<ProductDto>>> GetProductsAsync([FromQuery] ProductQueryParameters parameters)
         {
             var products = await productService.GetProductsAsync(parameters);
