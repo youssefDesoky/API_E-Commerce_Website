@@ -13,8 +13,8 @@ public class IdentityStoreDbContext(DbContextOptions<IdentityStoreDbContext> opt
         base.OnModelCreating(builder);
 
         builder.Entity<AppUser>().ToTable("Users");
-        builder.Entity<IdentityRole>().ToTable("Users");
-        builder.Entity<IdentityUserRole<string>>().ToTable("Users");
+        builder.Entity<IdentityRole>().ToTable("Roles");
+        builder.Entity<IdentityUserRole<string>>().ToTable("UserRoles");
         builder.Entity<Address>().ToTable("Addresses");
 
         builder.Ignore<IdentityUserLogin<string>>();
