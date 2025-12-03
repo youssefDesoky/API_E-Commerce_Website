@@ -3,6 +3,7 @@ using E_Commerce.Service.Abstraction;
 using E_Commerce.Shared;
 using E_Commerce.Shared.DTOs.Products;
 using E_Commerce.Shared.ErrorModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -51,6 +52,7 @@ namespace E_Commerce.Presentation.API.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(ValidationErrorDetails))]
         [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(ErrorDetails))]
         [Cache(60)]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<ProductDto>>> GetProductsAsync([FromQuery] ProductQueryParameters parameters)
         {
             var products = await productService.GetProductsAsync(parameters);
