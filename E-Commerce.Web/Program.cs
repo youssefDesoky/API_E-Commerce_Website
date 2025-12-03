@@ -1,3 +1,4 @@
+using System.Text;
 using E_Commerce.Domain.Contracts;
 using E_Commerce.Domain.Entities.Identity;
 using E_Commerce.Persistence.Context;
@@ -6,11 +7,13 @@ using E_Commerce.Persistence.Repositories;
 using E_Commerce.Service.Abstraction;
 using E_Commerce.Service.MappingProfile;
 using E_Commerce.Service.Services;
+using E_Commerce.Shared;
 using E_Commerce.Shared.ErrorModels;
 using E_Commerce.Web.Middlewares;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -47,6 +50,28 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 
 builder.Services.AddAutoMapper(x => x.AddProfile(new ProductProfile(builder.Configuration)));
 builder.Services.AddAutoMapper(x => x.AddProfile(new BasketProfile()));
+
+builder.Services.Configure<JwtOptions>(builder.Configuration.GetSection("JwtOptions")); // Bind JwtOptions
+
+var jwtOptions = builder.Configuration.GetSection("JwtOptions").Get<JwtOptions>();
+
+builder.Services.AddAuthentication(options =>
+    {
+        options.DefaultAuthenticateScheme = "Bearer";
+        options.DefaultChallengeScheme = "Bearer";
+    }).AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters()
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = jwtOptions.Issuer,
+            ValidAudience = jwtOptions.Audience,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtOptions.SecretKey))
+        };
+    });
 #endregion
 
 #region Validation Error Exception
@@ -96,6 +121,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.UseMiddleware<GlobalMiddleware>();
 
