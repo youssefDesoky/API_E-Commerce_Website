@@ -50,6 +50,7 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 
 builder.Services.AddAutoMapper(x => x.AddProfile(new ProductProfile(builder.Configuration)));
 builder.Services.AddAutoMapper(x => x.AddProfile(new BasketProfile()));
+builder.Services.AddAutoMapper(x => x.AddProfile(new OrderProfile()));
 
 builder.Services.Configure<JwtOptions>(builder.Configuration.GetSection("JwtOptions")); // Bind JwtOptions
 

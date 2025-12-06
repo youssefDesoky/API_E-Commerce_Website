@@ -2,6 +2,7 @@ using System;
 using System.Text.Json;
 using E_Commerce.Domain.Contracts;
 using E_Commerce.Domain.Entities.Identity;
+using E_Commerce.Domain.Entities.Orders;
 using E_Commerce.Domain.Entities.Products;
 using E_Commerce.Persistence.Context;
 using Microsoft.AspNetCore.Identity;
@@ -30,6 +31,7 @@ public class DbInitializer(
         if (context.Database.GetPendingMigrations().Any())
             await context.Database.MigrateAsync(); // Apply any pending migrations
 
+        // Product Brands Seeding
         if (!context.ProductBrands.Any())
         {
             var brandsData = await File.ReadAllTextAsync(Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), "../Infrastructure/E-Commerce.Persistence/Context/DataSeed/brands.json")));
@@ -43,11 +45,11 @@ public class DbInitializer(
 
             if (brands is not null && brands.Any())
             {
-                context.ProductBrands.AddRange(brands);
-                await context.SaveChangesAsync();
+                await context.ProductBrands.AddRangeAsync(brands);
             }
         }
 
+        // Product Types Seeding
         if (!context.ProductTypes.Any())
         {
             var typesData = await File.ReadAllTextAsync(Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), "../Infrastructure/E-Commerce.Persistence/Context/DataSeed/types.json")));
@@ -61,11 +63,11 @@ public class DbInitializer(
 
             if (types is not null && types.Any())
             {
-                context.ProductTypes.AddRange(types);
-                await context.SaveChangesAsync();
+                await context.ProductTypes.AddRangeAsync(types);
             }
         }
 
+        // Products Seeding
         if (!context.Products.Any())
         {
             var productsData = await File.ReadAllTextAsync(Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), "../Infrastructure/E-Commerce.Persistence/Context/DataSeed/products.json")));
@@ -79,10 +81,29 @@ public class DbInitializer(
 
             if (products is not null && products.Any())
             {
-                context.Products.AddRange(products);
-                await context.SaveChangesAsync();
+                await context.Products.AddRangeAsync(products);
             }
         }
+
+        // Delivery Methods Seeding
+        if (!context.DeliveryMethods.Any())
+        {
+            var deliveryMethodsData = await File.ReadAllTextAsync(Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), "../Infrastructure/E-Commerce.Persistence/Context/DataSeed/delivery.json")));
+
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+
+            var deliveryMethods = JsonSerializer.Deserialize<List<DeliveryMethod>>(deliveryMethodsData, options);
+
+            if (deliveryMethods is not null && deliveryMethods.Any())
+            {
+                await context.DeliveryMethods.AddRangeAsync(deliveryMethods);
+            }
+        }
+
+        await context.SaveChangesAsync();
     }
 
     public async Task InitializeIdentityAsync()

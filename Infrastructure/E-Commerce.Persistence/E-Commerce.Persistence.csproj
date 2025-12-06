@@ -17,8 +17,4 @@
     <ProjectReference Include="../../Core/E-Commerce.Service/E-Commerce.Service.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Context/DataSeed/" />
-  </ItemGroup>
-
 </Project>
