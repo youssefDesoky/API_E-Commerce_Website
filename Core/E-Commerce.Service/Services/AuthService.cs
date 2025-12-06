@@ -57,17 +57,18 @@ public class AuthService(UserManager<AppUser> userManager, IOptions<JwtOptions> 
     {
         var jwtOpts = jwtOptions.Value;
 
-        var claims = new List<Claim>(
+        var claims = new List<Claim>
+        {
             new Claim(ClaimTypes.Email, user.Email),
             new Claim(ClaimTypes.Name, user.DisplayName),
             new Claim(ClaimTypes.MobilePhone, user.PhoneNumber)
-        );
+        };
 
-        var uesrRoles = userManager.GetRolesAsync(user).Result;
-        foreach (var role in uesrRoles)
+        var userRoles = userManager.GetRolesAsync(user).Result;
+        foreach (var role in userRoles)
         {
             claims.Add(new Claim(ClaimTypes.Role, role));
-        }
+        };
 
         var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(jwtOpts.SecretKey));
 

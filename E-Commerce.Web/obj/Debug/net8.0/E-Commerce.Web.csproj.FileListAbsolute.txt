@@ -655,3 +655,4 @@
 /media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 /media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
 /media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
+/media/youssef-desoky/Data/My Work/C#/Route/API/E-Commerce_Session_04/API_E-Commerce_Website/E-Commerce.Web/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll

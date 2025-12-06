@@ -1,4 +1,5 @@
 using System.Reflection;
+using E_Commerce.Domain.Entities.Orders;
 using E_Commerce.Domain.Entities.Products;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,4 +20,8 @@ public class StoreDbContext : DbContext
     public DbSet<Product> Products { get; set; } = default!;
     public DbSet<ProductBrand> ProductBrands { get; set; } = default!;
     public DbSet<ProductType> ProductTypes { get; set; } = default!;
+
+    public DbSet<Order> Orders { get; set; } = default!;
+    public DbSet<DeliveryMethod> DeliveryMethods { get; set; } = default!;
+    public DbSet<OrderItem> OrderItems { get; set; } = default!;
 }
